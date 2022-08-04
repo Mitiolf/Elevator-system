@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl">
+     <head>
+        <meta charset="utf-8">
+        <title>Elevator System</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="mechanika.js"></script>
+        <link rel="stylesheet" href="main.css" />
+     </head>
+     <body>
+      <h1>Elevator System</h1>
+      <div id="elevatorsContainer">
+      </div>
+      <div id="controlContainer">
+         
+         <form>
+            <div>
+               <label for="fname">Elevator number:</label><br>
+               <input type="number" id="eNumber" name="fname" max="16" min="1" value="1"><br>
+               <label for="lname">Destionation:</label><br>
+               <input type="number" id="newDestiny" name="lname" max="30" min="0" value="1">
+            </div>
+            <input type="button" id="setDestinyButton" value="Call!">
+          </form>
+          <button id=addElevatorButton><h1>Add</h1></button>
+         <button id=goButton><h1>Go</h1></button>
+      </div>
+     </body>
+</html>
