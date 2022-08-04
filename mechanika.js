@@ -56,5 +56,4 @@ $(document).ready(function(){
         var dest = $("#newDestiny").val();
         elevatorSystem.elevators.length < num ? alert("Elevator doesn't exist.") : elevatorSystem.callElevator(num, dest);
     });
-    $("#elevatorsContainer").append(`<div class=elevator><p>Floor: ${elevatorSystem.elevators[0].floor}</p><p>Destination: ${elevatorSystem.elevators[0].destination.length == 0 ? "Waiting..." : elevatorSystem.elevators[0].destination}</p></div`);
 });
