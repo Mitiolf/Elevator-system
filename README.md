@@ -7,7 +7,7 @@ Call - is calling chosen elevator to the floor you would like it to go
 ## Deployment 
 https://mitiolf.github.io/Elevator-system/
 ## Technologies
--JavaScript 
--HTML
--CSS
--jQuery
+- JavaScript 
+- HTML
+- CSS
+- jQuery
