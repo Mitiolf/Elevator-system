@@ -1,5 +1,5 @@
 # Elevator-system
-The Elevator system is a simple web application, created for the recruitment process.
+The Elevator system is a simple web application, created for the recruitment process.<br />
 In the application there are three buttons: 
 ```
 Add - is adding an elevator to the system
